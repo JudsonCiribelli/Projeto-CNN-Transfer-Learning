@@ -1,0 +1,44 @@
+# Bibliotecas principais para Deep Learning
+tensorflow==2.18.0
+keras==3.8.0
+tensorflow-addons==0.23.0
+tensorflow-datasets==4.9.3
+tensorboard==2.18.0
+
+# Manipulação de dados e arrays
+numpy==1.26.4
+pandas==2.2.1
+
+# Processamento e visualização de imagens
+opencv-python==4.11.0.86
+Pillow==10.2.0
+imutils==0.5.4
+
+# Visualização e análise de dados
+matplotlib==3.10.0
+seaborn==0.13.2
+scikit-learn==1.6.1
+
+# Manipulação e salvamento de modelos
+h5py==3.12.1
+
+# 1. Para instalar todas as bibliotecas
+pip install -r requirements.txt
+
+# 2. Pre-processar os dados
+# python src/Preprocess.py
+
+# 3. Treinar o Modelo
+# python src/VGG16/VGG_16.py
+
+# 4. Validar com Novas Imagens
+# python src/Validation_Images.py
+
+# 5. Interpretar Decisões do Modelo com Grad-CAM
+# python src/VGG16/Grad-Cam-VGG16.py
+
+# 6. Precisão do modelo
+# python src/VGG16/Precision-VGG16.py
+
+#7. Analise de errors
+# python src/VGG16/Error-Analysis.py
