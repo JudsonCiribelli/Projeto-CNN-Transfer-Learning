@@ -11,7 +11,8 @@ from tensorflow.keras.preprocessing import image
 novas_imagens_path = "dataset/novas_imagens"
 
 # Carregar o modelo treinado
-model_path = "models/mobilenetv2_pneumonia_finetuned.h5"
+model_path = "models/vgg16_pneumonia_finetuned_v2.h5"
+#model_path = "models/mobilenetv2_pneumonia_finetuned.h5"
 model = tf.keras.models.load_model(model_path)
 
 # Parâmetros

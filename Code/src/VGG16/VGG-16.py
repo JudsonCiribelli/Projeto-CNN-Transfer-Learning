@@ -12,7 +12,7 @@ import numpy as np
 # Definições
 IMG_SIZE = (224, 224)
 BATCH_SIZE = 32
-EPOCHS = 30  # Aumentamos para melhor aprendizado
+EPOCHS = 50  # Aumentamos para melhor aprendizado
 LEARNING_RATE = 0.0001  # Ajuste fino da taxa de aprendizado
 ALPHA = 0.25  # Parâmetro do Focal Loss
 GAMMA = 2.0  # Parâmetro do Focal Loss
