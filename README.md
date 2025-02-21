@@ -6,7 +6,7 @@
 @contato: Judson.ciribelli@discente.ufma.br  
 @data última versão: 20/02/2025
 @versão: 1.0  
-@outros repositórios: [URLs - apontem para os seus Gits, se quiserem]  
+@outros repositórios: https://github.com/JudsonCiribelli?tab=repositories
 @Agradecimentos: Universidade Federal do Maranhão (UFMA), Professor Doutor Thales Levi Azevedo Valente, e colegas de curso.
 
 ---
